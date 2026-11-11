@@ -26,3 +26,4 @@ window.CONFIG = {
 python teams_package/build_teams_zip.py
 ```
 This generates `teams_package/teams_365_agent.zip` which you upload directly to the **Microsoft Teams Admin Center** or **Teams App Store**.
+

@@ -3,3 +3,4 @@
 window.CONFIG = {
   API_BASE_URL: "" // Leave empty for same-domain or relative path; Set e.g. "https://your-backend.azurewebsites.net" when hosted separately
 };
+
