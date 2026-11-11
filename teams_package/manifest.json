@@ -27,8 +27,8 @@
     {
       "entityId": "noMeetCockpitTab",
       "name": "NoMeet Cockpit",
-      "contentUrl": "https://no-meet-teams-backend.vercel.app/teams/tab",
-      "websiteUrl": "https://no-meet-teams-backend.vercel.app/teams/tab",
+      "contentUrl": "https://no-meet-teams-backend.vercel.app/teams/tab/index.html",
+      "websiteUrl": "https://no-meet-teams-backend.vercel.app/teams/tab/index.html",
       "scopes": [
         "personal"
       ]
