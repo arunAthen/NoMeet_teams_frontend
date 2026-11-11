@@ -6,9 +6,9 @@
   "packageName": "com.microsoft.teams.nomeet",
   "developer": {
     "name": "NoMeet Intelligence",
-    "websiteUrl": "https://teams-365-agent-v5ge.vercel.app",
-    "privacyUrl": "https://teams-365-agent-v5ge.vercel.app",
-    "termsOfUseUrl": "https://teams-365-agent-v5ge.vercel.app"
+    "websiteUrl": "https://no-meet-teams-backend.vercel.app",
+    "privacyUrl": "https://no-meet-teams-backend.vercel.app",
+    "termsOfUseUrl": "https://no-meet-teams-backend.vercel.app"
   },
   "icons": {
     "color": "color.png",
@@ -27,8 +27,8 @@
     {
       "entityId": "noMeetCockpitTab",
       "name": "NoMeet Cockpit",
-      "contentUrl": "https://teams-365-agent-v5ge.vercel.app/teams/tab",
-      "websiteUrl": "https://teams-365-agent-v5ge.vercel.app/teams/tab",
+      "contentUrl": "https://no-meet-teams-backend.vercel.app/teams/tab",
+      "websiteUrl": "https://no-meet-teams-backend.vercel.app/teams/tab",
       "scopes": [
         "personal"
       ]
@@ -38,6 +38,6 @@
     "identity"
   ],
   "validDomains": [
-    "teams-365-agent-v5ge.vercel.app"
+    "no-meet-teams-backend.vercel.app"
   ]
 }
