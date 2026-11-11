@@ -6,9 +6,9 @@
   "packageName": "com.microsoft.teams.nomeet",
   "developer": {
     "name": "NoMeet Intelligence",
-    "websiteUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com",
-    "privacyUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com",
-    "termsOfUseUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com"
+    "websiteUrl": "https://teams-365-agent-v5ge.vercel.app",
+    "privacyUrl": "https://teams-365-agent-v5ge.vercel.app",
+    "termsOfUseUrl": "https://teams-365-agent-v5ge.vercel.app"
   },
   "icons": {
     "color": "color.png",
@@ -27,8 +27,8 @@
     {
       "entityId": "noMeetCockpitTab",
       "name": "NoMeet Cockpit",
-      "contentUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com/teams/tab",
-      "websiteUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com/teams/tab",
+      "contentUrl": "https://teams-365-agent-v5ge.vercel.app/teams/tab",
+      "websiteUrl": "https://teams-365-agent-v5ge.vercel.app/teams/tab",
       "scopes": [
         "personal"
       ]
@@ -38,6 +38,6 @@
     "identity"
   ],
   "validDomains": [
-    "assist-cooper-luke-sufficient.trycloudflare.com"
+    "teams-365-agent-v5ge.vercel.app"
   ]
 }
