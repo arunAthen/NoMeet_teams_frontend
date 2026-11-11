@@ -19,6 +19,15 @@
           <h3>NoMeet</h3>
         </div>
 
+        <!-- Personal Bot User Profile -->
+        <div class="user-profile-badge" id="userProfileBadge">
+          <div class="user-avatar" id="userAvatar">👤</div>
+          <div class="user-meta">
+            <div class="user-display-name" id="userDisplayName">Personal Bot</div>
+            <div class="user-status-text">🔒 Private to you</div>
+          </div>
+        </div>
+
         <!-- Dynamic Group/Project Workspace Selector -->
         <div class="workspace-picker">
           <label class="picker-label" for="groupSelector">WORKSPACE / GROUP</label>
@@ -32,12 +41,12 @@
         <button id="newSessionBtn" class="btn-new-session">+ New Session</button>
       </div>
 
-      <div class="sessions-label">PAST SESSIONS</div>
+      <div class="sessions-header-row">
+        <span class="sessions-label">RECENT CONVERSATIONS</span>
+        <span class="user-privacy-tag" title="Only you see these chats">🔒 Only You</span>
+      </div>
       <div class="sessions-list" id="sessionsList">
-        <!-- Rendered dynamically by app.js -->
-        <div class="session-item active">
-          <span class="session-title">Current Session</span>
-        </div>
+        <!-- Rendered dynamically by app.js with rich project cards -->
       </div>
 
       <div class="sidebar-footer">
