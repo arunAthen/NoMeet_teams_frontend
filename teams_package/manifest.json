@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "c1f7a8b2-4d3e-4b6a-9f1e-8e2d4c6b8a10",
+  "packageName": "com.microsoft.teams.nomeet",
+  "developer": {
+    "name": "NoMeet Intelligence",
+    "websiteUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com",
+    "privacyUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com",
+    "termsOfUseUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "NoMeet",
+    "full": "NoMeet — M365 Delivery Intelligence Copilot"
+  },
+  "description": {
+    "short": "Eliminate status sync meetings with autonomous delivery tracking.",
+    "full": "Zero-meeting delivery copilot that syncs with Teams files, tracks Change Requests, resolves defects, and provides real-time project answers without booking a call."
+  },
+  "accentColor": "#5B5FC7",
+  "staticTabs": [
+    {
+      "entityId": "noMeetCockpitTab",
+      "name": "NoMeet Cockpit",
+      "contentUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com/teams/tab",
+      "websiteUrl": "https://assist-cooper-luke-sufficient.trycloudflare.com/teams/tab",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity"
+  ],
+  "validDomains": [
+    "assist-cooper-luke-sufficient.trycloudflare.com"
+  ]
+}
